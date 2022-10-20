@@ -7,7 +7,7 @@ public class Student {
     public Student (int id, String name, String surname) {
         this.id = id;
         this.name = name;
-        surname = surname;
+        this.surname = surname;
     }
 
     // copy constructor - se copiaza un obiect

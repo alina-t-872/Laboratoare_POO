@@ -11,8 +11,10 @@ public class Book {
         this.year = year;
     }
 
+    @Override
     public String toString() {
-        // TODO
-        return null;
+        return title + ", written by " +
+                author +
+                ", published in " + year;
     }
 }
